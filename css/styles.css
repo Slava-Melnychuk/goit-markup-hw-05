@@ -571,7 +571,6 @@ body {
 .card {
 	text-decoration: none;
 	width: calc((100% - 48px) / 3);
-	border: 1px solid var(--accent-color);
 	border-top: none;
 	box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
 	transition: box-shadow 250ms var(--cubic);
@@ -681,6 +680,11 @@ body {
 .modal-close:focus{
 	background-color: var(--pressed-state-color);
 	fill: #ffffff;
+}
+
+.modal-icon{
+	display: block;
+	margin: auto;
 }
 
 .is-hidden {
